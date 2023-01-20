@@ -18,9 +18,9 @@ $ which go
 ```
 if this give you an output is some version of golang then you can move ahead with steps. If says  `go not found` just install it from [Go Dev](https://go.dev/doc/install) website based on your operating system.
 
-2. Find the correct directory and unzip the package `submission.zip`
+2. Find and enter the correct directory `submission` 
 ```
-$ unzip submission.zip
+$ cd submission
 ```
 3. There are two folders `data` and `output-schema` with `main.go`. The `main.go` is fetching the data from `data/data.json`. The `output-schema/schema.json` is the required schema based on the ouput is generated.
 4. In order to run `main.go` run this command on the current directory on the terminal.
